@@ -1,0 +1,9 @@
+.env
+google.json
+credentials.json
+.DS_Store
+__pycache__/
+*.pyc
+state.json
+calls_all.csv
+.gitignoreсдуфк
