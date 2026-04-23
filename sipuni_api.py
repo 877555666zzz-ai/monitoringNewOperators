@@ -10,7 +10,7 @@ from utils_csv import parse_csv
 
 DEFAULT_BASE_URL = "https://sipuni.com"
 
-DEFAULT_TIMEOUT = 120
+DEFAULT_TIMEOUT = 30
 
 DEFAULT_RETRIES = int(os.getenv("SIPUNI_RETRIES", "3"))
 DEFAULT_RETRY_SLEEP = float(os.getenv("SIPUNI_RETRY_SLEEP", "1"))
